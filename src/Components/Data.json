@@ -1,0 +1,25 @@
+{
+  "capabilitiesCards": [
+    {
+      "title": "S'affilier",
+      "description": "Déclarer en ligne mon entreprise en vue de son affiliation à la CNSS.",
+      "image": "./services/online-learning.png"
+    },
+
+    {
+      "title": "Espace Employeur",
+      "description": "Déclarer en ligne mon entreprise en vue de son affiliation à la CNSS",
+      "image": "./services/form.png"
+    },
+    {
+      "title": "Espace Assuré",
+      "description": "Déclarer en ligne mon entreprise en vue de son affiliation à la CNSS",
+      "image": "./services/high-quality.png"
+    },
+    {
+      "title": "Identifiant eCNSS",
+      "description": "Déclarer en ligne mon entreprise en vue de son affiliation à la CNSS",
+      "image": "./services/chat.png"
+    }
+  ]
+}

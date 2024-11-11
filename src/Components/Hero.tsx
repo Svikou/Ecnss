@@ -19,7 +19,7 @@ export default function HeroCarousel() {
   }, []);
 
   return (
-    <div className="relative  mt-2 h-[400px] overflow-hidden">
+    <div className="relative  mt-2 h-[450px] overflow-hidden">
       {images.map((image, index) => (
         <div
           key={index}

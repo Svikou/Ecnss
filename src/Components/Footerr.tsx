@@ -5,7 +5,7 @@ const Footerr = () => {
         <div className="lg:flex lg:items-start lg:gap-8">
           <div className="text-teal-600">
             <img
-              className="h-24 w-[200px] "
+              className="h-25 w-[200px] "
               src="public/images/Logo-CNSS.png"
               alt=" "
             />
@@ -19,8 +19,7 @@ const Footerr = () => {
                 </h2>
 
                 <p className="mt-4 text-gray-500">
-                  Envoyez nous un email par rapport à votre besoin à fin d'être
-                  prix en charges plus rapidement.
+                  Envoyez nous un email pour une prise en charge plus rapide.
                 </p>
               </div>
             </div>

@@ -18,30 +18,21 @@ const Header: React.FC = () => {
             <nav aria-label="Global">
               <ul className="flex items-center gap-[40px] text-[16px] ">
                 <li>
-                  <a
-                    className="text-black transition hover:text-[#ff4141] "
-                    href="#"
-                  >
+                  <a className="text-black transition " href="#">
                     {" "}
                     Services{" "}
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    className="text-black transition  hover:text-[#fcff43]"
-                    href="#"
-                  >
+                  <a className="text-black transition " href="#">
                     {" "}
                     Documents{" "}
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    className="text-black transition hover:text-[#3baa35e7]"
-                    href="#"
-                  >
+                  <a className="text-black transition" href="#">
                     {" "}
                     Contacts{" "}
                   </a>
