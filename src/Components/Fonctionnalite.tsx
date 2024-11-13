@@ -2,13 +2,13 @@ import React from "react";
 
 const Fonctionnalite: React.FC = () => {
   return (
-    <div className="space-y-4 my-0 mx-20">
-      <div className="mx-auto px-4 py-8 mb-6">
-        <h2 className="text-5xl font-semibold text-[#3baa35e7] text-center mb-5">
+    <div className="space-y-4 my-0 size">
+      <div className="lg:mx-auto px-4 py-8 mb-6">
+        <h2 className="text-responsive font-semibold text-[#3baa35e7] text-center mb-5">
           Fonctionnalités
         </h2>
-        <p className="text-xl font-md text-center text-para-color mb-2 whitespace-nowrap">
-          Découvrez les fonctionnalités principales de la plateforme
+        <p className="text-responsive font-md text-center text-para-color mb-2 ">
+          Les fonctionnalités principales de la plateforme
         </p>
       </div>
 
@@ -18,8 +18,8 @@ const Fonctionnalite: React.FC = () => {
           key={index}
           className="group [&_summary::-webkit-details-marker]:hidden"
         >
-          <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-xl px-4 py-[18px] text-gray-900 hover:bg-gray-100 border border-[#324f533d] mt-6 transition-colors">
-            <h2 className="font-medium">{faqItem.question}</h2>
+          <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-xl px-responsive py-responsive text-gray-900 hover:bg-gray-100 border border-[#324f533d] mt-6 transition-colors">
+            <h3 className="text-responsive font-medium">{faqItem.question}</h3>
             <svg
               className="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
               xmlns="http://www.w3.org/2000/svg"

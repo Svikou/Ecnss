@@ -5,7 +5,7 @@ const Footerr = () => {
         <div className="lg:flex lg:items-start lg:gap-8">
           <div className="text-teal-600">
             <img
-              className="h-25 w-[200px] "
+              className=" w-responsive h-responsive"
               src="public/images/Logo-CNSS.png"
               alt=" "
             />
@@ -14,11 +14,11 @@ const Footerr = () => {
           <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
             <div className="col-span-2 mt-6">
               <div>
-                <h2 className="text-2xl font-bold text-gray-900">
+                <h2 className="text-responsive font-bold text-gray-900">
                   Contactez nous
                 </h2>
 
-                <p className="mt-4 text-gray-500">
+                <p className="mt-4 text-responsive text-gray-500">
                   Envoyez nous un email pour une prise en charge plus rapide.
                 </p>
               </div>

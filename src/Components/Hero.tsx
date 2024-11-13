@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 
 const images = [
-  "public/images/image-2.png?height=600&width=1200",
-  "public/images/image-3.png?height=600&width=1200",
-  "public/images/image-2.png?height=600&width=1200",
-  "public/images/image-3.png?height=600&width=1200",
+  "public/images/image-2.png",
+  "public/images/image-3.png",
+  "public/images/image-2.png",
+  "public/images/image-3.png",
 ];
 
 export default function HeroCarousel() {
@@ -19,11 +19,11 @@ export default function HeroCarousel() {
   }, []);
 
   return (
-    <div className="relative  mt-2 h-[450px] overflow-hidden">
+    <div className="relative mt-2 overflow-hidden w-full h-[30vh] sm:h-[18vh] md:h-[30vh] lg:h-[80vh]">
       {images.map((image, index) => (
         <div
           key={index}
-          className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ${
+          className={`absolute inset-0 transition-opacity duration-1000 ${
             index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
         >

@@ -1,6 +1,14 @@
+import { useState } from "react";
+
 const Header: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <header className="bg-white  mt-2 mx-2 py-2 rounded-lg border border-[#00000045]  ">
+    <header className="bg-white mt-2 mx-2 py-2 rounded-lg border border-[#00000045]">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
@@ -16,25 +24,20 @@ const Header: React.FC = () => {
 
           <div className="hidden md:block">
             <nav aria-label="Global">
-              <ul className="flex items-center gap-[40px] text-[16px] ">
-                <li>
-                  <a className="text-black transition " href="#">
-                    {" "}
-                    Services{" "}
-                  </a>
-                </li>
-
-                <li>
-                  <a className="text-black transition " href="#">
-                    {" "}
-                    Documents{" "}
-                  </a>
-                </li>
-
+              <ul className="flex items-center gap-[40px] text-[16px]">
                 <li>
                   <a className="text-black transition" href="#">
-                    {" "}
-                    Contacts{" "}
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a className="text-black transition" href="#">
+                    Documents
+                  </a>
+                </li>
+                <li>
+                  <a className="text-black transition" href="#">
+                    Contacts
                   </a>
                 </li>
               </ul>
@@ -45,7 +48,7 @@ const Header: React.FC = () => {
             <div className="sm:flex sm:gap-4">
               <div className="hidden sm:flex">
                 <a
-                  className="rounded-md bg-[#3baa35e7] hover:bg-[#3baa35]   px-5 py-3 text-sm font-medium text-white"
+                  className="rounded-md bg-[#3baa35e7] hover:bg-[#3baa35] px-5 py-3 text-sm font-medium text-white"
                   href="#"
                 >
                   Mon compte
@@ -54,7 +57,10 @@ const Header: React.FC = () => {
             </div>
 
             <div className="block md:hidden">
-              <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+              <button
+                className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+                onClick={toggleMenu}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="size-5"
@@ -74,6 +80,39 @@ const Header: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Hamburger menu content */}
+      {isMenuOpen && (
+        <div className="bg-white shadow-lg p-4 md:hidden">
+          <nav>
+            <ul className="space-y-4">
+              <li>
+                <a className="text-black transition" href="#">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a className="text-black transition" href="#">
+                  Documents
+                </a>
+              </li>
+              <li>
+                <a className="text-black transition" href="#">
+                  Contacts
+                </a>
+              </li>
+              <li>
+                <a
+                  className="rounded-md bg-[#3baa35e7] hover:bg-[#3baa35] px-5 py-3 text-sm font-medium text-white"
+                  href="#"
+                >
+                  Mon compte
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      )}
     </header>
   );
 };
