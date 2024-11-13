@@ -6,7 +6,7 @@ const Services: React.FC = () => {
     <section className="py-16">
       <div className="container mx-auto max-w-2xl">
         <h2 className="mb-5 text-center text-responsive font-semibold text-[#3baa35e7]">
-          Mon espace Ecnss
+          Mon espace eCNSS
         </h2>
 
         <p className="text-responsive text-para-color mb-4 text-center lg:text-2xl">
@@ -16,7 +16,7 @@ const Services: React.FC = () => {
 
       <div className="pb-4 text-white" id="benefits">
         <div
-          className="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:w-[90%] lg:w-[98%]  text-center"
+          className="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:w-[90%] lg:w-[86%]  text-center"
           id="services"
         >
           {capabilitiesCards.map((card, index) => (

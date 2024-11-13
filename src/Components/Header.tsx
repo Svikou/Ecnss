@@ -25,10 +25,31 @@ const Header: React.FC = () => {
           <div className="hidden md:block">
             <nav aria-label="Global">
               <ul className="flex items-center gap-[40px] text-[16px]">
-                <li>
-                  <a className="text-black transition" href="#">
-                    Services
+                <li className="relative group">
+                  <a
+                    className="text-black transition flex items-center"
+                    href="#"
+                  >
+                    Services <span className="ml-1"></span>
                   </a>
+
+                  {/* Sous-menu */}
+                  <div className="absolute left-0 hidden pt-2 group-hover:flex flex-col z-10">
+                    <div className="bg-white border border-gray-200 rounded shadow-lg w-[200px]">
+                      <a
+                        href="#affiliation-cnss"
+                        className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                      >
+                        S'affilier à la CNSS
+                      </a>
+                      <a
+                        href="#adhesion-ecnss"
+                        className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                      >
+                        Adhérer à eCNSS
+                      </a>
+                    </div>
+                  </div>
                 </li>
                 <li>
                   <a className="text-black transition" href="#">

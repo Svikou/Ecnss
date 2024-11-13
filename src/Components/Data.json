@@ -3,23 +3,23 @@
     {
       "title": "S'affilier",
       "description": "Déclarer en ligne mon entreprise en vue de son affiliation à la CNSS.",
-      "image": "./services/online-learning.png"
+      "image": "./services/affilier.png"
     },
 
     {
       "title": "Espace Employeur",
-      "description": "Déclarer en ligne mon entreprise en vue de son affiliation à la CNSS",
+      "description": "Immatriculer mes salariés, les déclarer et payer les cotisations sociales en ligne",
       "image": "./services/form.png"
     },
     {
       "title": "Espace Assuré",
-      "description": "Déclarer en ligne mon entreprise en vue de son affiliation à la CNSS",
+      "description": "Accéder à mon espace Assuré en ligne",
       "image": "./services/high-quality.png"
     },
     {
       "title": "Identifiant eCNSS",
-      "description": "Déclarer en ligne mon entreprise en vue de son affiliation à la CNSS",
-      "image": "./services/chat.png"
+      "description": "Obtenir mes identifiants de connexion à mon espace eCNSS",
+      "image": "./services/identifiant.png"
     }
   ]
 }
