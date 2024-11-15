@@ -19,7 +19,7 @@ const Footerr = () => {
                 </h2>
 
                 <p className="mt-4 text-responsive text-gray-500">
-                  Envoyez nous un email pour une prisse en charge plus rapide.
+                  Envoyez nous un email pour une prise en charge plus rapide.
                 </p>
               </div>
             </div>
