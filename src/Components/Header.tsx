@@ -37,11 +37,12 @@ const Header: React.FC = () => {
                   <div className="absolute left-0 hidden pt-2 group-hover:flex flex-col z-10">
                     <div className="bg-white border border-gray-200 rounded shadow-lg w-[200px]">
                       <a
-                        href="#affiliation-cnss"
+                        href="#Affilier"
                         className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                       >
                         S'affilier à la CNSS
                       </a>
+
                       <a
                         href="#adhesion-ecnss"
                         className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
