@@ -1,18 +1,21 @@
-import Header from "./Components/Header";
-import Footerr from "./Components/Footerr";
-import HeroCarousel from "./Components/Hero";
-import Services from "./Components/Services";
-import Fonctionnalite from "./Components/Fonctionnalite";
+// src/App.tsx
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainLayout from "./Layout/Mainlayout";
+import HomePage from "./Pages/Homepage";
+import AffiliationPage from "./Pages/Affilier";
 
 function App() {
   return (
-    <>
-      <Header />
-      <HeroCarousel />
-      <Services />
-      <Fonctionnalite />
-      <Footerr />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
+          {/* Route pour la page d'accueil */}
+          <Route index element={<HomePage />} />
+          {/* Route pour la page d'affiliation */}
+          <Route path="/affilier" element={<AffiliationPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
