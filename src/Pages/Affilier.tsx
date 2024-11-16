@@ -4,15 +4,8 @@ export default function LoginForm() {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen mt-10">
       <div className="flex w-1/2 flex-col justify-center p-8">
-        <div className="mb-8">
-          <img
-            src="/placeholder.svg?height=60&width=60"
-            alt="CNSS Logo"
-            className="h-16 w-16"
-          />
-        </div>
         <div className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-bold mb-6">Se connecter</h2>
           <form className="space-y-4">
@@ -32,7 +25,7 @@ export default function LoginForm() {
                 type="text"
                 required
                 placeholder="XXXXXXXXXXXXXX"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none "
               />
             </div>
             <div>
@@ -47,7 +40,7 @@ export default function LoginForm() {
                   id="password"
                   type={showPassword ? "text" : "password"}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none "
                 />
                 <button
                   type="button"
@@ -103,21 +96,40 @@ export default function LoginForm() {
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              className="w-full bg-[#3baa35e7] hover:bg-[#3baa35]  text-white py-2 px-4 rounded-md  focus:outline-none "
             >
               CONNEXION
             </button>
           </form>
           <div className="mt-4 text-center text-sm">
-            <a href="#" className="text-blue-600 hover:underline">
-              Êtes-vous un employeur déjà immatriculé à la CNSS?
+            <a href="#" className=" text-sm ">
+              Êtes-vous un employeur déjà immatriculé à la CNSS ?{" "}
+              <span className="hover:underline text-[#3baa35e7]">
+                Adhérez maintenant
+              </span>
+            </a>
+          </div>
+          <div className="mt-4 text-center text-sm">
+            <a href="#" className=" text-sm ">
+              Êtes-vous un employeur qui n'est pas immatriculé ?{" "}
+              <span className="hover:underline text-[#3baa35e7]">
+                Affiliation
+              </span>
+            </a>
+          </div>
+          <div className="mt-4 text-center text-sm">
+            <a href="#" className=" text-sm ">
+              Avez-vous oublié votre mot de passe ? <br></br>
+              <span className="hover:underline text-[#3baa35e7]">
+                Mot de passe oublié
+              </span>
             </a>
           </div>
         </div>
       </div>
       <div className="w-1/2">
         <img
-          src="/placeholder.svg?height=1080&width=1920"
+          src="public/images/girlAfilier.jpeg"
           alt="Background"
           className="h-full w-full object-cover"
         />

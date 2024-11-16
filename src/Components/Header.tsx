@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,11 +15,13 @@ const Header: React.FC = () => {
           <div className="md:flex md:items-center md:gap-12">
             <a className="block text-teal-600" href="#">
               <span className="sr-only">Home</span>
-              <img
-                className="h-20 w-auto"
-                src="public/images/logo (1).svg"
-                alt=" "
-              />
+              <Link to="/">
+                <img
+                  className="h-20 w-auto"
+                  src="public/images/logo (1).svg"
+                  alt=" "
+                />
+              </Link>
             </a>
           </div>
 
