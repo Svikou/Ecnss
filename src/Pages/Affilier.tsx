@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function LoginForm() {
+export default function Affiliation() {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
@@ -25,7 +25,7 @@ export default function LoginForm() {
                 type="text"
                 required
                 placeholder="XXXXXXXXXXXXXX"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none "
+                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 "
               />
             </div>
             <div>
@@ -40,7 +40,7 @@ export default function LoginForm() {
                   id="password"
                   type={showPassword ? "text" : "password"}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none "
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 "
                 />
                 <button
                   type="button"

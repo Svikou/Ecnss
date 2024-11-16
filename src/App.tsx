@@ -2,7 +2,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "./Layout/Mainlayout";
 import HomePage from "./Pages/Homepage";
-import AffiliationPage from "./Pages/Affilier";
+import Affiliation from "./Pages/Affilier";
+import Adhesion from "./Pages/Adhesion";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
         <Route path="/" element={<MainLayout />}>
           {/* Route pour la page d'accueil */}
           <Route index element={<HomePage />} />
-          {/* Route pour la page d'affiliation */}
-          <Route path="/affilier" element={<AffiliationPage />} />
+          {/* Route pour des pages */}
+          <Route path="/affilier" element={<Affiliation />} />
+          <Route path="/Adhesion" element={<Adhesion />} />
         </Route>
       </Routes>
     </BrowserRouter>
