@@ -2,7 +2,7 @@ import React from "react";
 
 const Fonctionnalite: React.FC = () => {
   return (
-    <div className="space-y-4 my-0 size">
+    <div className="space-y-4  mb-8 size">
       <div className="lg:mx-auto px-4 py-8 mb-6">
         <h2 className="text-responsive font-semibold text-[#3baa35e7] text-center mb-5">
           Fonctionnalités
@@ -36,7 +36,7 @@ const Fonctionnalite: React.FC = () => {
             </svg>
           </summary>
 
-          <p className="mt-4 px-4 leading-relaxed text-gray-700">
+          <p className="mt-4 px-4 text-responsive leading-relaxed text-gray-700">
             {faqItem.answer}
           </p>
         </details>

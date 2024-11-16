@@ -25,6 +25,9 @@ h2.text-responsive {
   @media (min-width: 768px) {
     font-size: 2rem; /* text-2xl */
   }
+  @media (min-width: 1024px) {
+    font-size: 5xl; /* text-5xl, un peu plus grand pour les <h2> */
+  }
 }
 /* Responsive pour les <h3> */
 h3.text-responsive {
@@ -39,7 +42,7 @@ h3.text-responsive {
   }
 
   @media (min-width: 1024px) {
-    font-size: 1.25rem; /* text-5xl, un peu plus grand pour les <h2> */
+    font-size: 16px; /* text-5xl, un peu plus grand pour les <h2> */
   }
 }
 
@@ -56,7 +59,7 @@ p.text-responsive {
   }
 
   @media (min-width: 1024px) {
-    font-size: 20px; /* un peu plus petit que les <h2> */
+    font-size: 14px; /* un peu plus petit que les <h2> */
   }
 }
 
@@ -156,7 +159,7 @@ p.text-responsive {
 @media (min-width: 1024px) {
   /* lg: 1024px et plus */
   .w-responsive {
-    width: 230px; /* largeur ajustée pour les écrans lg */
+    width: 210px; /* largeur ajustée pour les écrans lg */
   }
 }
 
@@ -182,6 +185,6 @@ p.text-responsive {
 @media (min-width: 1024px) {
   /* lg: 1024px et plus */
   .h-responsive {
-    height: 140px; /* hauteur ajustée pour les écrans lg */
+    height: 120px; /* hauteur ajustée pour les écrans lg */
   }
 }
