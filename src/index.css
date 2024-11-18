@@ -159,7 +159,7 @@ p.text-responsive {
 @media (min-width: 1024px) {
   /* lg: 1024px et plus */
   .w-responsive {
-    width: 210px; /* largeur ajustée pour les écrans lg */
+    width: 190px; /* largeur ajustée pour les écrans lg */
   }
 }
 
@@ -185,6 +185,6 @@ p.text-responsive {
 @media (min-width: 1024px) {
   /* lg: 1024px et plus */
   .h-responsive {
-    height: 120px; /* hauteur ajustée pour les écrans lg */
+    height: 118px; /* hauteur ajustée pour les écrans lg */
   }
 }
