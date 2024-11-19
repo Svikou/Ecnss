@@ -4,6 +4,7 @@ import MainLayout from "./Layout/Mainlayout";
 import HomePage from "./Pages/Homepage";
 import Affiliation from "./Pages/Affilier";
 import Adhesion from "./Pages/Adhesion";
+import Documents from "./Pages/Documents";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           {/* Route pour des pages */}
           <Route path="/affilier" element={<Affiliation />} />
           <Route path="/Adhesion" element={<Adhesion />} />
+          <Route path="/Documents" element={<Documents />} />
         </Route>
       </Routes>
     </BrowserRouter>

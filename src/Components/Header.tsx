@@ -56,7 +56,7 @@ const Header: React.FC = () => {
                   </div>
                 </li>
                 <li>
-                  <a className="text-black transition" href="#">
+                  <a className="text-black transition" href="/Documents">
                     Documents
                   </a>
                 </li>
@@ -117,7 +117,7 @@ const Header: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a className="text-black transition" href="#">
+                <a className="text-black transition" href="/Documents">
                   Documents
                 </a>
               </li>
