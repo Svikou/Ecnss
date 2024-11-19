@@ -47,14 +47,14 @@ const Footerr = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row gap-[180px] mb-6 mt-12 items-center justify-center h-full">
-          <div className="flex items-center gap-2 text-center sm:text-left">
+        <div className="flex flex-col my-8 lg:ml-10 sm:flex-row items-center gap-1 text-center sm:text-left">
+          <div className="flex items-center gap-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 shrink-0 text-gray-900"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="#3baa35e7"
               strokeWidth="2"
             >
               <path
@@ -68,16 +68,18 @@ const Footerr = () => {
                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
               />
             </svg>
-            <p className="text-ùd  text-gray-900">Kaloum - Koulewondy</p>
+            <p className="text-sm sm:text-md text-gray-900">
+              Kaloum - Kouléwondy
+            </p>
           </div>
 
-          <div className="flex items-center gap-2 text-center sm:text-left">
+          <div className="flex items-center gap-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="size-5 shrink-0 text-gray-900"
+              className="w-5 h-5 sm:w-6 sm:h-6 text-gray-900 shrink-0"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="#3baa35e7"
               strokeWidth="2"
             >
               <path
@@ -86,16 +88,18 @@ const Footerr = () => {
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
               />
             </svg>
-            <p className="text-md  text-gray-900">+224 625 56 56 16</p>
+            <p className="text-sm sm:text-md text-gray-900">
+              +224 625 56 56 16
+            </p>
           </div>
 
-          <div className="flex items-center gap-2 text-center sm:text-left">
+          <div className="flex items-center gap-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="size-5 shrink-0 text-gray-900"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="#3baa35e7"
               strokeWidth="2"
             >
               <path
@@ -104,7 +108,9 @@ const Footerr = () => {
                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
               />
             </svg>
-            <p className="text-md  text-gray-900">contact@cnss.gov.gn</p>
+            <p className="text-sm sm:text-md text-gray-900">
+              contact@gnsas.gov.gn
+            </p>
           </div>
         </div>
 
