@@ -61,7 +61,7 @@ const Header: React.FC = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="text-black transition" href="#">
+                  <a className="text-black transition" href="/Contact">
                     Contacts
                   </a>
                 </li>

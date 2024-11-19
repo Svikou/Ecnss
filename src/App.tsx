@@ -5,6 +5,7 @@ import HomePage from "./Pages/Homepage";
 import Affiliation from "./Pages/Affilier";
 import Adhesion from "./Pages/Adhesion";
 import Documents from "./Pages/Documents";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/affilier" element={<Affiliation />} />
           <Route path="/Adhesion" element={<Adhesion />} />
           <Route path="/Documents" element={<Documents />} />
+          <Route path="/Contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
